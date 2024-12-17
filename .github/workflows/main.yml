@@ -1,10 +1,12 @@
-name : basic workflow
-on : workflow_dispatch
+name: basic workflow
+on: workflow_dispatch
+
 jobs:
-    first-job:
-        runs-on: ubuntu-latest
-        steps:
-         - name: print hello
-           run: echo "Hello"
-         - name: print hii
-           run: echo "hii"
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "Hello"
+
+      - name: print hii
+        run: echo "hii"
